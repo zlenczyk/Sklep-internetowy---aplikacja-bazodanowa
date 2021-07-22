@@ -1,0 +1,53 @@
+body {
+  background-image: url('back.jpg');
+  background-size: cover;
+}
+
+#nav {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid black;
+	background: rgb(100, 100, 100, 0.4);
+}
+
+#main {
+	border: 1px solid black;
+	padding: 30px;
+	background: rgb(220, 220, 220, 0.9);
+}
+	
+.menu {
+	color: white;
+	font-size: 25px;
+	text-decoration:none;
+
+}	
+
+a.menu:hover {
+	color: rgb(82, 165, 12);
+	text-decoration:none;
+}
+
+.blad {
+	color: red;
+}
+
+a {
+	color: black;
+	font-size: 15px;
+}
+
+a:hover {
+	color: rgb(82, 158, 255);
+}
+
+table {
+	border-spacing: 60px 10px;
+	
+}
+
+form {
+	display: inline;
+}
